@@ -1,6 +1,61 @@
-.color {
-    color: rgb(7, 7, 7);
-    font-size: 20px;
-    font-family: 'Arial';
+/* Estilos para la etiqueta del creador */
+.creator-badge {
+    background: linear-gradient(45deg, #ffd700, #e3d1b0);
+    border-radius: 10px;
+    display: inline-block;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+    font-size: 16px;
     font-weight: bold;
+    color: white;
+    padding: 8px 15px;
+    text-decoration: none;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* Efecto hover (agranda y da sombra) */
+.creator-badge:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.hover-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 12px;
+}
+
+.hover-card:hover {
+    transform: scale(1.05); /* Aumenta un 5% su tamaño */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Sombra más pronunciada */
+}
+
+
+
+/* Modal con mejor scroll */
+.modal-scroll {
+    max-height: 400px;
+    overflow-y: auto;
+    padding-right: 10px;
+}
+
+/* Imágenes dentro del modal */
+.modal-body img {
+    border-radius: 10px;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Botones con efecto hover */
+.hover-btn {
+    transition: transform 0.2s ease, background 0.2s ease;
+}
+
+.hover-btn:hover {
+    transform: scale(1.1);
+    background: #0056b3;
+    color: white;
+}
+
+/* Encabezado del modal */
+.modal-header {
+    border-bottom: none;
 }
