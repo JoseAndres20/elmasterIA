@@ -1,6 +1,8 @@
 {
-  "rewrites": [
-    { "source": "/views/(.*)", "destination": "/views/$1" },
-    { "source": "/(.*)", "destination": "/views/index.html" }
+  "routes": [
+    { "src": "/css/(.*)", "dest": "/public/css/$1" },
+    { "src": "/js/(.*)", "dest": "/public/js/$1" },
+    { "src": "/views/(.*)", "dest": "/views/$1" },
+    { "src": "/(.*)", "dest": "/views/index.html" }
   ]
 }
