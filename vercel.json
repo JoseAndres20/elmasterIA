@@ -1,8 +1,5 @@
 {
-    "rewrites": [
-      { "source": "/(.*)", "destination": "/index.html" }
-    ],"static": {
-    "public": "public"
-  }
-  }
-  
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/views/index.html" }
+  ]
+}
